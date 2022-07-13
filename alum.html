@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Alumnos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style2.css">
+    <link rel="icon" href="https://www.harvard.edu/wp-content/uploads/2020/10/cropped-logo-branding-compressed-150x150.png" sizes="32x32">
+  </head>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  <!--Buscador-->
+  <nav class="navbar "><!--etiqueta nav es un contenedor de enlaces-->
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img src="img/logo.jpg" alt style="width: 180px;">Harvard</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body"><!--desplegable lateral-->
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link" href="camp.html">Campus</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Formulario.html">Form</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Students eden
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                <li><a class="dropdown-item" href="alum.html">Mission / Vision </a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="calculadora.html">Calculator</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </nav>
+<!--fin del buscador-->
+<!--contenido-->
+<div class=" container">
+    <h1>Mission</h1>
+    <p>Our Institution guarantees a quality education to students at the initial, primary and secondary education level, providing training in values, meeting the needs of the modern world through strategies and tools with the latest advances in science and technology, using modern methodology. , promoting the generation and application of innovation projects, we offer an educational service that encourages the search for academic efficiency for the integral formation of the person in all his human dimension, developing his capacities, abilities and skills.</p>
+    <img src="/Img/harvard-mision.jpg" alt="" style="width:70%" class="mx-auto d-block">
+    <h1>Vision</h1>
+    <p>To be a leading educational community in the educational field, where teaching based on values ​​is of quality, through methodologies that are at the forefront of this 21st century, where the student is the protagonist of their own learning and technology, the significant instrument to develop in them learning to learn, investigate and increase knowledge and values, resulting not only in students with a high cognitive level but also with a critical sense and democratic awareness. Committed to the social, environmental and economic development of their surroundings.</p>
+    <img src="/Img/vision.jpg" alt="" style="width:70%" class="mx-auto d-block" >
+</div>
+ <!--Pie de página-->
+ <footer class="pie-pagina">
+  <div class="grupo-1">
+    <div class="box">
+      <figure>
+      <a href="#">
+        <img src="Img/logo.jpg" alt="logo de Harvard" >
+      </a>
+    </figure></div>
+      
+    <div class="box">
+      <h2>ABOUT US</h2>
+        <p><FONT COLOR="white">HBS Online offers a unique and highly engaging way to learn vital business concepts, enabling committed students to transform their careers, their organizations and their lives. </FONT></p>
+    </div>
+    <div class="box">
+      <h2>FOLLOW US</h2>
+      <div class="red-social">
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-instagram"></a>
+          <a href="#" class="fa fa-twitter"></a>
+          <a href="#" class="fa fa-youtube"></a>
+      </div>
+    </div>
+  </div>
+  <div class="grupo-2">
+      <small>&copy; 2022 <b>MORENO-MEDRANO</b>-All rights reserved</small>
+  </div>
+</footer>
+<script src="https://kit.fontawesome.com/de3d576e9f.js" crossorigin="anonymous"></script>
+  </body>
+</html>
